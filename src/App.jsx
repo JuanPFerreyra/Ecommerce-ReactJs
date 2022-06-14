@@ -12,7 +12,7 @@ function App() {
 
     <NavBar/>
     <ItemListContainer titulo='Bienvenidos a la tienda de ropa más variada'/>
-    <ItemCount stock="5"/>
+   {/*  <ItemCount stock="5"/> */}
     <Cuerpo/>
 
     </>

@@ -15,12 +15,17 @@ function ItemCount({stock}) {
     } 
   }
 
+  function comprar(){
+    console.log("Has comprado un total de: ", inicial, " prendas")
+  }
+
   return (
     <>
-        <h4>Remera "Amapola"</h4>
+       {/*  <h4>Remera "Amapola"</h4> */}
         <p>Quiero encargar {inicial} de este artículo</p>
         <button onClick={restar}> - </button>
         <button onClick={sumar}> + </button>
+        <button onClick={comprar}> Comprar </button>
     </>
   )
 }
